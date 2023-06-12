@@ -2,9 +2,9 @@ _subdirectory: "{{ template_name.lower() }}"
 _templates_suffix: ""
 template_name:
   choices:
-  - hello-world
+  - minimal
   type: str
 project_name: "{{ template_name }}"
-description: "A new {{ template_name }} Flet app"
+description: "A {{ template_name }} Flet app"
 #author: Your name
 #email: your.name@example.com
