@@ -3,8 +3,7 @@ _templates_suffix: ""
 template_name:
   choices:
   - minimal
+  - counter
   type: str
 project_name: "{{ template_name }}"
 description: "A {{ template_name }} Flet app"
-#author: Your name
-#email: your.name@example.com
