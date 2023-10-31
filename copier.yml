@@ -4,6 +4,7 @@ template_name:
   choices:
   - minimal
   - counter
+  - flet_pack
   type: str
 project_name: "{{ template_name }}"
 description: "A {{ template_name }} Flet app"
