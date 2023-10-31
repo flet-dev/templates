@@ -1,5 +1,5 @@
 {
-    "name": "{{ project_name }}",
+    "name": "{{ product_name }}",
     "short_name": "{{ project_name }}",
     "start_url": ".",
     "display": "standalone",

@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "{{ company_name }}" "\0"
-            VALUE "FileDescription", "{{ project_name }}" "\0"
+            VALUE "FileDescription", "{{ product_name }}" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "{{ project_name }}" "\0"
             VALUE "LegalCopyright", "{{ copyright }}" "\0"
             VALUE "OriginalFilename", "{{ project_name }}.exe" "\0"
-            VALUE "ProductName", "{{ project_name }}" "\0"
+            VALUE "ProductName", "{{ product_name }}" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
